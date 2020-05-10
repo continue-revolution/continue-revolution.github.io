@@ -1,0 +1,171 @@
+.right {
+  width: 100%;
+  height: 800px;
+  background-image: url('../bg/13.1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  top: 40px;
+  margin-left: 0;
+  margin-top: 0;
+}
+.right .r1 {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  line-height: 600px;
+  font-family: Edwardian Script ITC;
+  font-size: 80px;
+  color: #fc2364;
+}
+.head {
+  width: 100%;
+  height: 40px;
+  background-image: linear-gradient(to bottom, #faf7d3, #fafc98);
+  position: sticky;
+  top: 0;
+}
+.head .back {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+}
+.head .back a {
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 30px;
+  color: #f54f81;
+  text-align: center;
+}
+.head .back:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.head .back:hover a {
+  color: white;
+}
+.head .home {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 100px;
+  text-align: center;
+  line-height: 40px;
+}
+.head .home a {
+  text-decoration: none;
+}
+.head .home i {
+  font-size: 30px;
+  color: #f54f81;
+}
+.head .home:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.head .home:hover i {
+  color: white;
+}
+.head .lst {
+  position: relative;
+}
+.head .lst .list {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 50px;
+  text-align: center;
+  line-height: 40px;
+}
+.head .lst .list i {
+  font-size: 30px;
+  color: #f54f81;
+}
+.head .lst .left {
+  width: 320px;
+  background-color: #FFFFFF;
+  background-image: url('../bg/11.png');
+  background-position: center;
+  background-size: auto 100%;
+  opacity: 0.5;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+  font-family: 华文行楷;
+  position: absolute;
+  top: -480px;
+}
+.head .lst .left a {
+  text-decoration: none;
+  display: block;
+  color: #2ee4fc;
+}
+.head .lst .left .c1,
+.head .lst .left .c3 {
+  height: 60px;
+  padding-left: 30px;
+  line-height: 60px;
+  font-size: 25px;
+  padding-right: 30px;
+}
+.head .lst .left .c1:hover,
+.head .lst .left .c3:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.head .lst .left .c4 {
+  height: 180px;
+}
+.head .lst .left .c4 .c5 {
+  height: 60px;
+  padding-left: 30px;
+  line-height: 60px;
+  font-size: 25px;
+}
+.head .lst .left .c4 .c5:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.head .lst .left .c4 .c2 {
+  height: 40px;
+  padding-left: 60px;
+  line-height: 40px;
+  font-size: 16px;
+}
+.head .lst .left .c4 .c2:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.head .lst:hover .left {
+  animation-name: test;
+  animation-duration: 0.1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.head .lst:hover .list {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.head .lst:hover .list i {
+  color: white;
+}
+.head .text2 {
+  text-align: center;
+  width: 500px;
+  line-height: 40px;
+  color: #f54f81;
+  font-size: 20px;
+  font-family: 华光行草_CNKI;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+@keyframes test {
+  from {
+    top: -480px;
+  }
+  to {
+    top: 40px;
+  }
+}
+/*# sourceMappingURL=./welcome.css.map */

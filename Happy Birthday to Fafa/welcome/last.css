@@ -1,0 +1,190 @@
+.head {
+  width: 100%;
+  height: 40px;
+  background-image: linear-gradient(to bottom, #faf7d3, #fafc98);
+  position: sticky;
+  top: 0;
+}
+.head .back {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+}
+.head .back a {
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  line-height: 40px;
+  font-size: 30px;
+  color: #f54f81;
+  text-align: center;
+}
+.head .back:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.head .back:hover a {
+  color: white;
+}
+.head .home {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 50px;
+  text-align: center;
+  line-height: 40px;
+}
+.head .home a {
+  text-decoration: none;
+}
+.head .home i {
+  font-size: 30px;
+  color: #f54f81;
+}
+.head .home:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.head .home:hover i {
+  color: white;
+}
+.head .content {
+  width: 75%;
+  height: 40px;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  justify-content: space-between;
+  line-height: 40px;
+}
+.head .content li:nth-of-type(6) {
+  border-bottom: red 1px solid;
+  color: #f54f81;
+}
+.head .content li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.head .content li:hover a {
+  color: white;
+}
+.head .content .c1 {
+  font-family: 华光行草_CNKI;
+  font-size: 16px;
+}
+.head .content .c1 a {
+  text-decoration: none;
+  color: #f54f81;
+}
+.head .content .c2 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .head .content li {
+    display: none;
+  }
+  .head .content .c2 {
+    display: block;
+    font-family: 华光行草_CNKI;
+    color: #f54f81;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+.main {
+  width: 100%;
+  height: 750px;
+  background-image: url('../bg/10.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.6;
+  position: relative;
+}
+.main .word {
+  position: absolute;
+  width: 40%;
+  border: 5px double rgba(245, 79, 129, 0.6);
+  border-radius: 10px;
+  padding: 30px;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+}
+.main .word:hover {
+  box-shadow: 5px 5px 20px #f54f81;
+}
+@media screen and (max-width: 768px) {
+  .main .word {
+    width: 60%;
+  }
+}
+.main .word p {
+  line-height: 40px;
+  font-family: 华文楷体;
+}
+.main .word span {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-family: 华文楷体;
+}
+.main .copyright {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+.author {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top: 300px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.author .heart {
+  position: absolute;
+}
+.author .heart i {
+  font-size: 400px;
+  color: red;
+}
+.author .aut {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.author .aut ul {
+  margin-top: 150px;
+}
+.author .aut li {
+  line-height: 20px;
+  font-size: 16px;
+  font-family: 华光魏体_CNKI;
+  color: red;
+}
+/*# sourceMappingURL=./last.css.map */
