@@ -105,6 +105,11 @@
   opacity: 0.6;
   position: relative;
 }
+@media screen and (max-width: 1200px) {
+  .main {
+    height: 1200px;
+  }
+}
 .main .word {
   position: absolute;
   width: 40%;
@@ -123,7 +128,7 @@
 .main .word:hover {
   box-shadow: 5px 5px 20px #f54f81;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .main .word {
     width: 60%;
   }

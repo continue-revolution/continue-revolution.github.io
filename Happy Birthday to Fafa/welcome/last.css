@@ -123,7 +123,7 @@
 .main .word:hover {
   box-shadow: 5px 5px 20px #f54f81;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 850px) {
   .main .word {
     width: 60%;
   }
@@ -158,6 +158,11 @@
   right: 0;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 600px) {
+  .author {
+    top: 350px;
+  }
 }
 .author .heart {
   position: absolute;

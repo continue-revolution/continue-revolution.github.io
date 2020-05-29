@@ -115,6 +115,9 @@
     background-size: cover;
     opacity: .6;
     position: relative;
+    @media screen and (max-width:768px){
+        height: 1200px;
+    }
     .word{
         position: absolute;
         width: 60%;
@@ -147,12 +150,24 @@
             background-color: rgba(0, 0, 0, .3);
             display: flex;
             flex-direction: column;
+            @media screen and (max-width:800px){
+                width: 80%;
+                
+                left: 0;
+                right: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
             .wor{
                 text-align: center;
                 color: white;
                 font-family: 华文行楷;
                 font-size: 30px;
                 line-height: 150px;
+                overflow: hidden;
+                @media screen and (max-width:1420px){
+                    font-size: 20px;
+                }
             }
             &:hover{
                 transform: scale(1.05);

@@ -115,6 +115,9 @@
     background-size: cover;
     opacity: .5;
     position: relative;
+    @media screen and (max-width:600px){
+        height: 1600px;
+    }
     .word{
         position: absolute;
         width: 40%;
@@ -124,7 +127,7 @@
         box-shadow: 5px 5px 20px rgb(245, 79, 129);
         }
         padding: 30px;
-        @media screen and (max-width:768px){
+        @media screen and (max-width:900px){
             width: 60%;
         }
         top:100px;
@@ -138,6 +141,7 @@
         li{
             line-height: 40px;
             font-family: 华文楷体;
+            text-align: center;
             a{
                 text-decoration: none;
                 color: blue;
